@@ -11,4 +11,6 @@ A continuación un video de Michelle que te lleva a través de la fórmula matem
 3. Obtener letras
 4. Convertir al ascii de nuestro alfabeto
 5. Usar Formula
-    * ((x-65+n)%26)+65;
+    * (indiceLetra + 33)%26; (Cifrar)
+    * (indiceLetra + 65(codigoascii letra A) + letterIndex)%26 (Descifrar)
+
