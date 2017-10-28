@@ -12,5 +12,5 @@ A continuación un video de Michelle que te lleva a través de la fórmula matem
 4. Convertir al ascii de nuestro alfabeto
 5. Usar Formula
     * (indiceLetra + 33)%26; (Cifrar)
-    * (indiceLetra + 65(codigoascii letra A) + letterIndex)%26 (Descifrar)
+    * (indiceLetra + 65(codigoascii letra A))%26 (Descifrar)
 
