@@ -14,7 +14,7 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG.
     * Puedes declarar manualmente cada arreglo.
 2. Preguntar al usuario la frase que desea cifrar/descifrar.
 3. Asegurar que el usuario ingrese algo y esto no sea solo una cadena de numeros.
-4. Llamar a la función de cifrado. 
+4. Llamar a las funciones: Cifrar y Descifrar. 
 
 ### Funcion "Cifrar":
     Recibe: Una palabra a cifrar(string);
