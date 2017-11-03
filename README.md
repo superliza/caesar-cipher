@@ -63,7 +63,7 @@ II. Para cada letra, seguir el siguiente procedimiento:
 #### II.1 Si la letra es mayuscula:
 1. Obtengo el indice de la letra actual y lo almaceno en alguna variable.
 2. Utilizo la formula : 
-    * (97+indiceDeLetra)%26 
+    * (55 + llave +indiceDeLetra)%26 
         - Esto me da la posicion de la letra que encripta en el alfabeto.
         - Al sumarle 65 obtengo su código ascii. 
         - Almaceno este nuevo caractér
@@ -73,7 +73,7 @@ II. Para cada letra, seguir el siguiente procedimiento:
 #### II.2 Si la letra es minúscula:
 1. Obtengo el indice de la letra actual y lo almaceno en alguna variable.
 2. Utilizo la formula : 
-    * (llave+indiceDeLaLetraActual)%26 
+    * (55 + llave +indiceDeLaLetraActual)%26 
         - Esto me da la posicion de la letra que encripta en el alfabeto.
         - Al sumarle 97 obtengo su código ascii. 
         - Almaceno este nuevo caractér.
