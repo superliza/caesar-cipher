@@ -22,9 +22,9 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG.
 I. Tendremos que recorrer la palabra recibida (Usar la estructura de repetición de su preferencia).
 
 II. Para cada letra, seguir el siguiente procedimiento: 
-    *  Obtener el código ascii de la letra en cuestión.
-    * Preguntar si el código ascii de la letra en cuestión, se encuentra en el rango de los códigos ascii de letras mayúsculas o de letras minusculas.
-    * Si no se encuentra en ninguno de estos rangos entonces solo se agregará ese caracter a la cadena final. No se transformará de ninguna forma. 
+* Obtener el código ascii de la letra en cuestión.
+* Preguntar si el código ascii de la letra en cuestión, se encuentra en el rango de los códigos ascii de letras mayúsculas o de letras minusculas.
+* Si no se encuentra en ninguno de estos rangos entonces solo se agregará ese caracter a la cadena final. No se transformará de ninguna forma. 
 
 #### II.1 Si la letra es mayuscula:
 1. Obtengo el indice de la letra actual y lo almaceno en alguna variable.
